@@ -1,0 +1,119 @@
+{
+  "ipfsIsRunning": "IPFS je spuštěn",
+  "ipfsIsStopping": "IPFS se zastavuje",
+  "ipfsIsStarting": "IPFS startuje",
+  "ipfsIsNotRunning": "IPFS neběží",
+  "ipfsHasErrored": "IPFS má chybu",
+  "start": "Začít",
+  "stop": "Zastavit",
+  "restart": "Restartovat",
+  "about": "O projektu",
+  "advanced": "Pokročilý",
+  "openRepoDir": "Otevřít adresář úložiště",
+  "openLogsDir": "Otevřít adresář Logů",
+  "openConfigFile": "Otevřít konfigurační soubor",
+  "viewOnGitHub": "Zobrazit na GitHubu",
+  "status": "Stav",
+  "files": "Soubory",
+  "settings": "Nastavení",
+  "quit": "Konec",
+  "versions": "Verze",
+  "screenshotTaken": "Snímek byl pořízen",
+  "shareableLinkCopied": "Odkaz ke sdílení byl zkopírován do schránky. Klepnutím sem zobrazíte snímek obrazovky.",
+  "couldNotTakeScreenshot": "Snímek obrazovky nelze pořídit",
+  "errorwhileTakingScreenshot": "Při pořizování snímku obrazovky došlo k chybě.",
+  "clickToOpenLogs": "Klepnutím sem otevřete logy.",
+  "ipfsNotRunning": "IPFS neběží",
+  "cantDownloadHash": "Hash nelze stáhnout",
+  "invalidHashClipboard": "Hodnota hash ve schránce není platná.",
+  "errorWhileDownloadingHash": "Při získávání hashe došlo k chybě.",
+  "errorWhileWritingFiles": "Při zápisu souborů do systému souborů došlo k chybě.",
+  "hashDownloaded": "Hash stažen",
+  "hashDownloadedClickToView": "Hash { hash } obsah stažen. Klikněte pro zobrazení.",
+  "updateAvailable": "Aktualizace je k dispozici",
+  "clickToInstall": "Kliknutím sem restartujte a nainstalujte novější verzi Desktop IPFS.",
+  "updateNotAvailable": "Aktualizace není k dispozici",
+  "runningLatestVersion": "Zdá se, že používáte nejnovější verzi.",
+  "couldNotCheckForUpdates": "Aktualizace se nepodařilo zkontrolovat",
+  "pleaseCheckInternet": "Zkontrolujte připojení k internetu.",
+  "checkForUpdates": "Kontrola aktualizací...",
+  "yes": "Ano",
+  "no": "Ne",
+  "close": "Zavřít",
+  "ok": "OK",
+  "cancel": "Zrušit",
+  "reportTheError": "Nahlásit chybu",
+  "restartIpfsDesktop": "Restartovat IPFS Desktop",
+  "openLogs": "Otevřít logy",
+  "takeScreenshot": "Udělat snímek obrazovky",
+  "downloadHash": "Stáhnout hash",
+  "moveRepositoryLocation": "Přesunout umístění repozitáře",
+  "polkitDialog": {
+    "title": "Polkit nebyl nalezen",
+    "message": "IPFS nelze přidat do /usr/local/bin/ bez agenta polkit."
+  },
+  "noPermissionDialog": {
+    "title": "Žádné oprávnění",
+    "message": "IPFS nelze přidat do /usr/local/bin/, buď proto, že jste zadali nesprávné heslo, nebo jste odmítli povolení."
+  },
+  "ipfsNotRunningDialog": {
+    "title": "IPFS neběží",
+    "message": "Pro provedení této akce musí být spuštěn IPFS. Chcete spustit démona?"
+  },
+  "recoverableErrorDialog": {
+    "title": "Nastala chyba",
+    "message": "Došlo k chybě, ale nezabrání to spuštění Desktop IPFS. Můžete si prohlédnout logy pro sebe nebo nahlásit chybu vývojářům."
+  },
+  "cannotConnectToApiDialog": {
+    "title": "Nelze se připojit k API",
+    "message": "IPFS Desktop se nemůže připojit k uvedené adrese API: { addr }."
+  },
+  "ipfsDesktopHasShutdownDialog": {
+    "title": "Desktop IPFS byl vypnut",
+    "message": "Desktop IPFS se vypnul kvůli chybě. Můžete restartovat aplikaci nebo nahlásit chybu vývojářům, což vyžadují účet na GitHub."
+  },
+  "moveRepositoryWarnDialog": {
+    "title": "Přesunout úložiště",
+    "message": "Pokud vaše úložiště zabírá příliš mnoho místa na hlavním disku, můžete jej přesunout na jiné místo. Nezapomeňte, že nové umístění musí být vždy dostupné, aby IPFS Desktop fungoval správně.",
+    "action": "Přesunout a restartovat uzel"
+  },
+  "moveRepositorySuccessDialog": {
+    "title": "Úložiště bylo úspěšně přesunuto",
+    "message": "Vaše úložiště bylo úspěšně přesunuto do { location } a vaše konfigurace byla aktualizována. Démon se nyní znovu spustí."
+  },
+  "moveRepositorySameDirDialog": {
+    "title": "Byl vybrán stejný adresář",
+    "message": "Zvolený adresář je stejný jako aktuální: { location }. Proto nebudou provedeny žádné změny."
+  },
+  "moveRepositoryDirExists": {
+    "title": "Adresář již existuje",
+    "message": "Adresář { location } již existuje. Zkuste použít jiný."
+  },
+  "busyPortsDialog": {
+    "title": "Porty jsou zaneprázdněny",
+    "message": "Porty { port1 } a{ port2 } nejsou k dispozici. Chcete použít namísto nich { alt1 } a{ alt2 }?",
+    "action": "Použít porty raději { alt1 } a{ alt2 } "
+  },
+  "busyPortDialog": {
+    "title": "Port je zaneprázdněn",
+    "message": "Port { port }není k dispozici. Chcete použít místo něj { alt } ?",
+    "action": "Použít raději { alt } "
+  },
+  "multipleBusyPortsDialog": {
+    "title": "Porty jsou zaneprázdněny",
+    "message": "Nelze navázat na jednu nebo více adres API nebo Gateway, protože jsou porty zaneprázdněny.",
+    "action": "Otevřete konfigurační soubor"
+  },
+  "itemsAddedNotification": {
+    "title": "Položky přidány",
+    "message": "{ count } položky přidané do vašeho uzlu. Do vaší schránky byl zkopírován odkaz, který lze sdílet. Kliknutím sem zobrazíte své soubory."
+  },
+  "itemAddedNotification": {
+    "title": "Položka přidána",
+    "message": "Položka byla přidána do vašeho uzlu. Do vaší schránky byl zkopírován odkaz, který lze sdílet. Kliknutím sem zobrazíte svůj soubor."
+  },
+  "itemsFailedNotification": {
+    "title": "Nepodařilo se přidat položky",
+    "message": "Položky nelze přidat do uzlu."
+  }
+}
